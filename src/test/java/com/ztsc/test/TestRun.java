@@ -1,7 +1,5 @@
 package com.ztsc.test;
 
-import static org.junit.Assert.*;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,9 +13,9 @@ public class TestRun {
 
 	@Test
 	public void test() {
-		
+
 		VirtualDataTools virtualDataTools = new VirtualDataTools();
-		
+
 		virtualDataTools.run();
 	}
 
